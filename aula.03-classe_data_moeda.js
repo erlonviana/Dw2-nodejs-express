@@ -124,6 +124,7 @@ console.log(nome.toLowerCase())
 console.log(nome.length)
 
 //Removendo espaços
-const novoNome = nome.replace(/\s/g,"")
+const novoNome = nome.replace(/\s/g,"") //Expressão regtx, substituiu o espaço por uma "ausência" de caracter
 console.log(novoNome)
 console.log(novoNome.length)
+
