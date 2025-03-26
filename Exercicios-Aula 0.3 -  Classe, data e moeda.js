@@ -91,6 +91,9 @@ console.log(`${batman.investigar()}`)
 //- Um ano a mais que o ano atual;
 //O formato da data deve ser exibida no padrão dia/mês/ano.
 
+const DataAtual = (getDate(); getMonth(); getYear()) => (`Daqui 3 dias será{getDate()+3}`; `daqui 2 meses será ${getMOnth()+3}`; `daqui um ano será ${getYear()+1}`)
+console.log(DataAtual)
+
 //Formatação de moedas
 //3 – Crie uma função que receba um determinado salário em real como parâmetro e converta esse salário para as moedas Dólar e Euro. Deverá ser feito a conversão de valores e formatação da moeda. 
 //Considere:
